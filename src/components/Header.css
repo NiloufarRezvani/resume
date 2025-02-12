@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+header h1{
+    font-family: "DynaPuff", serif;
+    font-optical-sizing: auto;
+    font-size: 32px;
+    font-style: normal;
+   
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+.divider{
+    border:dashed 3px;
+    border-color: #DCDCDC;
+    margin-top: 10px;
+    width: 50%;
+    
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.items{
+    background-color: #E9E9E9;
+    font-family: "DynaPuff", serif;
+    border-radius: 10px;
+    font-size: 32px;
+}
+.btn{
+    font-size: 32px;
+}
+
+.btn-dark{
+    color: white;
+}
+.dark-mode-title{
+   color: white;
+}
+.dark-mode-divider{
+color: #4B5255; 
+}
+.dark-mode-items{
+    background-color: #4B5255;
+   
+}
+@media screen and (max-with:600px) {
+    #title{
+        font-size:28px ;
+        color: blue;
+    }
+}

@@ -1,0 +1,31 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.title-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 10px;
+}
+.dark-mode-title-box{
+    color: white;
+}
+.checked{
+    color: #EE889A;
+}
+.trash-dark{
+    color: white;
+}
+.done{
+    text-decoration: line-through;
+}
+.icons-input{
+    display: flex;
+    align-items: center;
+    
+}

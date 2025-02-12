@@ -1,0 +1,9 @@
+.layout{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;  
+}
+.dark-mode{
+background-color: #1E1E1E;
+}

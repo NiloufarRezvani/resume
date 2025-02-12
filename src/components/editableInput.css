@@ -1,0 +1,14 @@
+.editable-input{
+    border: gray solid 3px;
+    box-shadow: 3px 3px;
+    border-radius: 10px;
+    height: 50px;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons{
+    color: palevioletred;
+}

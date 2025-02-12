@@ -1,0 +1,32 @@
+.list-text{
+    color: #B7BCBF;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 825px;
+}
+.todoList{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    width: 1200px;
+    color: black;
+    font-size: 30px;
+    font-family: "DynaPuff", serif;
+}
+
+.drag-item {
+    transition: background-color 0.2s ease;
+    border-radius: 4px;
+    margin: 8px 0;
+  }
+  
+  .drag-item.dragging {
+    background-color: rgba(63, 131, 248, 0.1);
+  }
+  
+  /* .todoList {
+    min-height: 100px;
+  } */
