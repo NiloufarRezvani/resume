@@ -4,7 +4,7 @@ import './layout.css'
 function Layout({children,mode}) {
 
   return (
-    <div className={`layout ${mode?`dark-mode`:``}`}> 
+    <div className={`layout ${mode?`dark-mode dark-background`:``}`}> 
   {children}
     </div>
   )

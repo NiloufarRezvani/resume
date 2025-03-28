@@ -52,9 +52,18 @@ color: #4B5255;
     background-color: #4B5255;
    
 }
-@media screen and (max-with:600px) {
+@media screen and (max-width:600px) {
     #title{
-        font-size:28px ;
-        color: blue;
+        font-size:20px ;
     }
-}
+    .items{
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .divider{
+        border:dashed 2px;
+    }
+  
+  }

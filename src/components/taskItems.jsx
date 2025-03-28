@@ -36,7 +36,7 @@ function TaskItems({ title, onDelete, darkMode, toggle, completed, id, updateTex
         } </div>
       <div className="icons-input">
         <IoTrash onClick={onDelete} className={`${darkMode ? `trash-dark` : ``}`} />
-        <FaPencil onClick={handleEditableInput}></FaPencil>
+        <FaPencil onClick={handleEditableInput} className={`${darkMode ? `text-white`: ``}`}></FaPencil>
       </div>
     </div>)
 }export default TaskItems

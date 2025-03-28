@@ -88,8 +88,8 @@ const updateTodoText = (id, text) => {
       setActiveFilter,
       filteredTodos,
       handleFilterChange
-    }}>
-      <div>
+    }} >
+      <div className={`${mode ? `dark-background`:''}`}>
         <Layout mode={mode}>
           <Header />
           <Content />

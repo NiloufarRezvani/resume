@@ -3,7 +3,8 @@
     font-family: "Outfit", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    height: 825px;
+    height: 750px;
+    overflow: auto;
 }
 .todoList{
     display: flex;
@@ -27,6 +28,4 @@
     background-color: rgba(63, 131, 248, 0.1);
   }
   
-  /* .todoList {
-    min-height: 100px;
-  } */
+ 
