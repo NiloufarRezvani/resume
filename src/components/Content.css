@@ -5,6 +5,7 @@
     font-style: normal;
     height: 750px;
     overflow: auto;
+    
 }
 .todoList{
     display: flex;
@@ -12,7 +13,8 @@
     align-items: start;
     flex-direction: column;
     gap: 10px;
-    width: 1200px;
+    width: 100%;
+    width: 1250px;
     color: black;
     font-size: 30px;
     font-family: "DynaPuff", serif;

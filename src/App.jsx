@@ -109,8 +109,8 @@ export default App
 
 
 //drak and drop~~~~>done
-//responsive
+//responsive  
 //diffrent parts all,completed,pendig~~~>done
 //editing each item~~~~>done~~~~~>in moheme dooobare yadesh begir
-//localStorage
+//localStorage~~~~>done
 //hame done shood shadi koone

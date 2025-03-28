@@ -5,6 +5,10 @@
     width: 100%;
 
 }
+.item:hover{
+    background-color: rgba(238, 135, 153,20%);
+    border-radius: 4px;
+}
 .title-box{
     display: flex;
     justify-content: center;

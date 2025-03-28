@@ -6,8 +6,8 @@ function Input({ value, setValue,handleTodos ,keyDown ,mode}) {
 
     return (
 
-        <div className={`input-box ${mode?`dark-mode-input`:``} `}>
-            {/* <div className="divider"></div> */}
+        <div className={`input-box-main ${mode?`dark-mode-input`:``} `}>
+          
             <div className='input'>
             <input type="text" 
             className={`${mode?`dark-mode-input`:``}`} 
